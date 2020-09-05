@@ -1,10 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-      <h1>Niv Portfolio</h1>
+    <div className="App">
+      <Navbar />
+    </div>
   );
 }
 
