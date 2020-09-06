@@ -6,15 +6,15 @@ import Nav from "react-bootstrap/Nav";
 export default function TopNavbar() {
   return (
     <Navbar bg="light" variant="light">
-      <Navbar.Brand href="#home">Niv Swamy</Navbar.Brand>
+      <Navbar.Brand href="/About">Niv Swamy</Navbar.Brand>
       <Nav className="ml-auto">
-        <Nav.Link className="mr-auto ml-3" href="#home">
+        <Nav.Link className="mr-auto ml-3" href="/About">
           About Me
         </Nav.Link>
-        <Nav.Link className="mr-auto ml-3" href="#home">
-          Projects
+        <Nav.Link className="mr-auto ml-3" href="/Portfolio">
+          Porfolio
         </Nav.Link>
-        <Nav.Link className="mr-auto ml-3" href="#home">
+        <Nav.Link className="mr-auto ml-3" href="Resume">
           Resume
         </Nav.Link>
       </Nav>
