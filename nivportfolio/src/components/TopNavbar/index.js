@@ -14,9 +14,6 @@ export default function TopNavbar() {
         <Nav.Link className="mr-auto ml-3" href="/Portfolio">
           Porfolio
         </Nav.Link>
-        <Nav.Link className="mr-auto ml-3" href="Resume">
-          Resume
-        </Nav.Link>
       </Nav>
     </Navbar>
   );
